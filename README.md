@@ -51,11 +51,11 @@ fizzbuzz-webapi/
 
 ```bash
 # Cloner le dépôt
-git clone https://github.com/AliZerouali/FizzBuzz.WebApi.git
+git clone https://github.com/AliZerouali/fizzbuzz-api.git
 cd fizzbuzz-webapi
 
-# L'API sera disponible sur https://localhost:5000
-# Swagger UI sur https://localhost:5000/swagger
+# L'API sera disponible sur http://localhost:5000
+# Swagger UI sur http://localhost:5000/swagger
 ```
 
 ### Méthode 2 : Avec Visual Studio
