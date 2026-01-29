@@ -47,12 +47,18 @@ fizzbuzz-webapi/
 
 ## 🚀 Démarrage rapide
 
-### Méthode 1 :
+### Méthode 1 : Avec Visual Studio Code
 
 ```bash
 # Cloner le dépôt
 git clone https://github.com/AliZerouali/fizzbuzz-api.git
-cd fizzbuzz-webapi
+cd FizzBuzz.WebApi
+
+# Lancement d'un build
+dotnet build
+
+# Lancer le serveur de développement
+dotnet run
 
 # L'API sera disponible sur http://localhost:5000
 # Swagger UI sur http://localhost:5000/swagger
