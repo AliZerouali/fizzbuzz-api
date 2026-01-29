@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="FizzBuzz.Application/FizzBuzz.Application.csproj" />
+  <Project Path="FizzBuzz.Domain/FizzBuzz.Domain.csproj" />
+  <Project Path="FizzBuzz.Infrastructure/FizzBuzz.Infrastructure.csproj" />
+  <Project Path="FizzBuzz.WebApi/FizzBuzz.WebApi.csproj" />
+</Solution>

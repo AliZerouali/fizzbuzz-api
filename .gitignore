@@ -1,0 +1,77 @@
+# .NET
+**/[Bb]in/
+**/[Oo]bj/
+**/[Ll]og/
+**/[Ll]ogs/
+
+# Visual Studio
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Rider
+.idea/
+*.sln.iml
+
+# Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+bld/
+[Bb]in/
+[Oo]bj/
+
+# Visual Studio cache
+.vs/
+
+# NuGet
+*.nupkg
+**/[Pp]ackages/*
+!**/[Pp]ackages/build/
+
+# User-specific
+*.userprefs
+
+# SQL Server
+*.mdf
+*.ldf
+*.ndf
+
+# VS Code
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# OS
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Temporary files
+*.tmp
+*.temp
+*.log
+logs/
+
+# IDE
+.idea/
+.project
+.classpath
+.settings/
+
+# Docker
+.dockerignore
+!docker-compose*.yml
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
