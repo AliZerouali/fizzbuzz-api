@@ -24,6 +24,36 @@
         "${workspaceFolder}/FizzBuzz.WebApi/FizzBuzz.WebApi.csproj"
       ],
       "problemMatcher": "$msCompile"
+    },
+    {
+      "label": "test",
+      "command": "dotnet",
+      "type": "process",
+      "args": ["test", "--verbosity", "normal"],
+      "problemMatcher": "$msCompile",
+      "group": {
+        "kind": "test",
+        "isDefault": true
+      }
+    },
+    {
+      "label": "test-with-coverage",
+      "command": "dotnet",
+      "type": "process",
+      "args": [
+        "test",
+        "/p:CollectCoverage=true",
+        "/p:CoverletOutputFormat=opencover",
+        "/p:CoverletOutput=../TestResults/coverage.xml"
+      ],
+      "problemMatcher": "$msCompile"
+    },
+    {
+      "label": "test-watch",
+      "command": "dotnet",
+      "type": "process",
+      "args": ["watch", "test", "--verbosity", "normal"],
+      "problemMatcher": "$msCompile"
     }
   ]
 }

@@ -75,3 +75,41 @@ logs/
 *.db
 *.sqlite
 *.sqlite3
+
+# Test results
+**/[Tt]est[Rr]esults/
+**/_ReSharper*/
+**/[Rr]eports/
+
+# Test coverage
+**/*.coverage
+**/*.coveragexml
+**/coverage.*
+**/.coverage
+**/lcov.info
+
+# Test run artifacts
+**/TestResults/
+**/test-results/
+**/*.trx
+**/*.html
+
+# Benchmark results
+BenchmarkDotNet.Artifacts/
+
+# VS Test
+*.vsp
+*.vspx
+*.vspscc
+
+# NCrunch
+_NCrunch_*
+.*crunch*.local.xml
+nCrunchTemp_*
+
+# DotCover
+*.dotCover
+
+# Visual Studio code coverage results
+*.coverage
+*.coveragexml

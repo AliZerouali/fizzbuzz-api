@@ -1,4 +1,10 @@
 <Solution>
+  <Folder Name="/tests/">
+    <Project Path="tests/FizzBuzz.Application.UnitTests/FizzBuzz.Application.UnitTests.csproj" />
+    <Project Path="tests/FizzBuzz.Domain.UnitTests/FizzBuzz.Domain.UnitTests.csproj" />
+    <Project Path="tests/FizzBuzz.Infrastructure.UnitTests/FizzBuzz.Infrastructure.UnitTests.csproj" />
+    <Project Path="tests/FizzBuzz.WebApi.UnitTests/FizzBuzz.WebApi.UnitTests.csproj" />
+  </Folder>
   <Project Path="FizzBuzz.Application/FizzBuzz.Application.csproj" />
   <Project Path="FizzBuzz.Domain/FizzBuzz.Domain.csproj" />
   <Project Path="FizzBuzz.Infrastructure/FizzBuzz.Infrastructure.csproj" />
