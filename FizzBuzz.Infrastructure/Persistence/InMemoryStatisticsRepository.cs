@@ -17,6 +17,13 @@ namespace FizzBuzz.Infrastructure.Persistence
         public Task IncrementRequestCountAsync(string key)
         {
             _requestCounts.AddOrUpdate(key, 1, (_, oldValue) => oldValue + 1);
+
+            Console.WriteLine("Toutes les entrées du cache:");
+            foreach (var entry in _requestCounts)
+            {
+                Console.WriteLine($"   {entry.Key} => {entry.Value}");
+            }
+
             return Task.CompletedTask;
         }
 

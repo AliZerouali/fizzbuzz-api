@@ -65,7 +65,7 @@
 
         public string GetCacheKey()
         {
-            return $"{Int1}|{Int2}|{Limit}|{Str1}|{Str2}";
+            return $"{Int1}|{Int2}|{Limit}|{Str1?.ToLowerInvariant()}|{Str2?.ToLowerInvariant()}";
         }
     }
 
